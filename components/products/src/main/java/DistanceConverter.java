@@ -11,4 +11,8 @@ public class DistanceConverter {
     public double convertKilometersToMiles(double kilometers){
         return Double.valueOf(DEC_FORMAT.format(kilometers * CONVERSION_RATE));
     }
+
+    public double convertMilesToKilometers(double miles){
+        return Double.valueOf(DEC_FORMAT.format(miles / CONVERSION_RATE));
+    }
 }
