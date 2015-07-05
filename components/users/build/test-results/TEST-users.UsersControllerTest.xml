@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="users.UsersControllerTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2015-06-28T22:42:13" hostname="Natalies-MacBook-Pro-2.local" time="0.453">
+  <properties/>
+  <testcase name="testGetIndex" classname="users.UsersControllerTest" time="0.427"/>
+  <testcase name="testGetUsers" classname="users.UsersControllerTest" time="0.025"/>
+  <system-out><![CDATA[16:42:13.330 [Test worker] DEBUG o.s.core.env.StandardEnvironment - Adding [systemProperties] PropertySource with lowest search precedence
+16:42:13.344 [Test worker] DEBUG o.s.core.env.StandardEnvironment - Adding [systemEnvironment] PropertySource with lowest search precedence
+16:42:13.344 [Test worker] DEBUG o.s.core.env.StandardEnvironment - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+16:42:13.458 [Test worker] INFO  o.s.t.w.s.s.StandaloneMockMvcBuilder$StaticRequestMappingHandlerMapping - Mapped "{[/users],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.http.ResponseEntity<java.lang.String> com.websiteskeleton.users.UsersController.getUsers()
+16:42:13.459 [Test worker] INFO  o.s.t.w.s.s.StandaloneMockMvcBuilder$StaticRequestMappingHandlerMapping - Mapped "{[/],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.websiteskeleton.users.UsersController.getIndex()
+16:42:13.549 [Test worker] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.test.web.servlet.setup.StubWebApplicationContext@1197c826
+16:42:13.595 [Test worker] DEBUG o.s.t.w.s.TestDispatcherServlet - Initializing servlet ''
+16:42:13.605 [Test worker] DEBUG o.s.w.c.s.StandardServletEnvironment - Adding [servletConfigInitParams] PropertySource with lowest search precedence
+16:42:13.605 [Test worker] DEBUG o.s.w.c.s.StandardServletEnvironment - Adding [servletContextInitParams] PropertySource with lowest search precedence
+16:42:13.609 [Test worker] DEBUG o.s.w.c.s.StandardServletEnvironment - Adding [jndiProperties] PropertySource with lowest search precedence
+16:42:13.609 [Test worker] DEBUG o.s.w.c.s.StandardServletEnvironment - Adding [systemProperties] PropertySource with lowest search precedence
+16:42:13.609 [Test worker] DEBUG o.s.w.c.s.StandardServletEnvironment - Adding [systemEnvironment] PropertySource with lowest search precedence
+16:42:13.609 [Test worker] DEBUG o.s.w.c.s.StandardServletEnvironment - Initialized StandardServletEnvironment with PropertySources [servletConfigInitParams,servletContextInitParams,jndiProperties,systemProperties,systemEnvironment]
+16:42:13.609 [Test worker] INFO  o.s.mock.web.MockServletContext - Initializing Spring FrameworkServlet ''
+16:42:13.610 [Test worker] INFO  o.s.t.w.s.TestDispatcherServlet - FrameworkServlet '': initialization started
+16:42:13.612 [Test worker] DEBUG o.s.t.w.s.TestDispatcherServlet - Unable to locate MultipartResolver with name 'multipartResolver': no multipart request handling provided
+16:42:13.612 [Test worker] DEBUG o.s.t.w.s.TestDispatcherServlet - Using LocaleResolver [org.springframework.web.servlet.i18n.AcceptHeaderLocaleResolver@76b6fbfa]
+16:42:13.612 [Test worker] DEBUG o.s.t.w.s.TestDispatcherServlet - Using ThemeResolver [org.springframework.web.servlet.theme.FixedThemeResolver@1013e0cb]
+16:42:13.612 [Test worker] DEBUG o.s.t.w.s.TestDispatcherServlet - Using RequestToViewNameTranslator [org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@6fbfa5]
+16:42:13.612 [Test worker] DEBUG o.s.t.w.s.TestDispatcherServlet - Using FlashMapManager [org.springframework.web.servlet.support.SessionFlashMapManager@43600f0]
+16:42:13.612 [Test worker] DEBUG o.s.t.w.s.TestDispatcherServlet - Published WebApplicationContext of servlet '' as ServletContext attribute with name [org.springframework.web.servlet.FrameworkServlet.CONTEXT.]
+16:42:13.613 [Test worker] INFO  o.s.t.w.s.TestDispatcherServlet - FrameworkServlet '': initialization completed in 3 ms
+16:42:13.613 [Test worker] DEBUG o.s.t.w.s.TestDispatcherServlet - Servlet '' configured successfully
+16:42:13.635 [Test worker] DEBUG o.s.t.w.s.TestDispatcherServlet - DispatcherServlet with name '' processing GET request for [/]
+16:42:13.637 [Test worker] DEBUG o.s.t.w.s.s.StandaloneMockMvcBuilder$StaticRequestMappingHandlerMapping - Looking up handler method for path /
+16:42:13.639 [Test worker] DEBUG o.s.t.w.s.s.StandaloneMockMvcBuilder$StaticRequestMappingHandlerMapping - Returning handler method [public java.lang.String com.websiteskeleton.users.UsersController.getIndex()]
+16:42:13.640 [Test worker] DEBUG o.s.t.w.s.TestDispatcherServlet - Last-Modified value for [/] is: -1
+16:42:13.650 [Test worker] DEBUG o.s.t.w.s.TestDispatcherServlet - Rendering view [org.springframework.web.servlet.view.InternalResourceView: unnamed; URL [home]] in DispatcherServlet with name ''
+16:42:13.650 [Test worker] DEBUG o.s.w.s.view.InternalResourceView - Forwarding to resource [home] in InternalResourceView 'null'
+16:42:13.651 [Test worker] DEBUG o.s.mock.web.MockRequestDispatcher - MockRequestDispatcher: forwarding to [home]
+16:42:13.651 [Test worker] DEBUG o.s.t.w.s.TestDispatcherServlet - Successfully completed request
+16:42:13.655 [Test worker] DEBUG o.s.core.env.StandardEnvironment - Adding [systemProperties] PropertySource with lowest search precedence
+16:42:13.655 [Test worker] DEBUG o.s.core.env.StandardEnvironment - Adding [systemEnvironment] PropertySource with lowest search precedence
+16:42:13.656 [Test worker] DEBUG o.s.core.env.StandardEnvironment - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+16:42:13.657 [Test worker] INFO  o.s.t.w.s.s.StandaloneMockMvcBuilder$StaticRequestMappingHandlerMapping - Mapped "{[/users],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.http.ResponseEntity<java.lang.String> com.websiteskeleton.users.UsersController.getUsers()
+16:42:13.658 [Test worker] INFO  o.s.t.w.s.s.StandaloneMockMvcBuilder$StaticRequestMappingHandlerMapping - Mapped "{[/],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.websiteskeleton.users.UsersController.getIndex()
+16:42:13.664 [Test worker] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.test.web.servlet.setup.StubWebApplicationContext@6c90b073
+16:42:13.667 [Test worker] DEBUG o.s.t.w.s.TestDispatcherServlet - Initializing servlet ''
+16:42:13.667 [Test worker] DEBUG o.s.w.c.s.StandardServletEnvironment - Adding [servletConfigInitParams] PropertySource with lowest search precedence
+16:42:13.668 [Test worker] DEBUG o.s.w.c.s.StandardServletEnvironment - Adding [servletContextInitParams] PropertySource with lowest search precedence
+16:42:13.668 [Test worker] DEBUG o.s.w.c.s.StandardServletEnvironment - Adding [jndiProperties] PropertySource with lowest search precedence
+16:42:13.668 [Test worker] DEBUG o.s.w.c.s.StandardServletEnvironment - Adding [systemProperties] PropertySource with lowest search precedence
+16:42:13.668 [Test worker] DEBUG o.s.w.c.s.StandardServletEnvironment - Adding [systemEnvironment] PropertySource with lowest search precedence
+16:42:13.668 [Test worker] DEBUG o.s.w.c.s.StandardServletEnvironment - Initialized StandardServletEnvironment with PropertySources [servletConfigInitParams,servletContextInitParams,jndiProperties,systemProperties,systemEnvironment]
+16:42:13.668 [Test worker] INFO  o.s.mock.web.MockServletContext - Initializing Spring FrameworkServlet ''
+16:42:13.668 [Test worker] INFO  o.s.t.w.s.TestDispatcherServlet - FrameworkServlet '': initialization started
+16:42:13.668 [Test worker] DEBUG o.s.t.w.s.TestDispatcherServlet - Unable to locate MultipartResolver with name 'multipartResolver': no multipart request handling provided
+16:42:13.668 [Test worker] DEBUG o.s.t.w.s.TestDispatcherServlet - Using LocaleResolver [org.springframework.web.servlet.i18n.AcceptHeaderLocaleResolver@d4c4ddc]
+16:42:13.668 [Test worker] DEBUG o.s.t.w.s.TestDispatcherServlet - Using ThemeResolver [org.springframework.web.servlet.theme.FixedThemeResolver@3395121a]
+16:42:13.668 [Test worker] DEBUG o.s.t.w.s.TestDispatcherServlet - Using RequestToViewNameTranslator [org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@5d4f5ebe]
+16:42:13.669 [Test worker] DEBUG o.s.t.w.s.TestDispatcherServlet - Using FlashMapManager [org.springframework.web.servlet.support.SessionFlashMapManager@afec1f4]
+16:42:13.669 [Test worker] DEBUG o.s.t.w.s.TestDispatcherServlet - Published WebApplicationContext of servlet '' as ServletContext attribute with name [org.springframework.web.servlet.FrameworkServlet.CONTEXT.]
+16:42:13.669 [Test worker] INFO  o.s.t.w.s.TestDispatcherServlet - FrameworkServlet '': initialization completed in 1 ms
+16:42:13.669 [Test worker] DEBUG o.s.t.w.s.TestDispatcherServlet - Servlet '' configured successfully
+16:42:13.669 [Test worker] DEBUG o.s.t.w.s.TestDispatcherServlet - DispatcherServlet with name '' processing GET request for [/users]
+16:42:13.669 [Test worker] DEBUG o.s.t.w.s.s.StandaloneMockMvcBuilder$StaticRequestMappingHandlerMapping - Looking up handler method for path /users
+16:42:13.671 [Test worker] DEBUG o.s.t.w.s.s.StandaloneMockMvcBuilder$StaticRequestMappingHandlerMapping - Returning handler method [public org.springframework.http.ResponseEntity<java.lang.String> com.websiteskeleton.users.UsersController.getUsers()]
+16:42:13.671 [Test worker] DEBUG o.s.t.w.s.TestDispatcherServlet - Last-Modified value for [/users] is: -1
+16:42:13.676 [Test worker] DEBUG o.s.w.s.m.m.a.ResponseBodyAdviceChain - Invoking ResponseBodyAdvice chain for body=[{"name":"Bob"},{"name":"Sue"}]
+16:42:13.676 [Test worker] DEBUG o.s.w.s.m.m.a.ResponseBodyAdviceChain - After ResponseBodyAdvice chain body=[{"name":"Bob"},{"name":"Sue"}]
+16:42:13.678 [Test worker] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Written [[{"name":"Bob"},{"name":"Sue"}]] as "text/plain;charset=ISO-8859-1" using [org.springframework.http.converter.StringHttpMessageConverter@86bce8]
+16:42:13.678 [Test worker] DEBUG o.s.t.w.s.TestDispatcherServlet - Null ModelAndView returned to DispatcherServlet with name '': assuming HandlerAdapter completed request handling
+16:42:13.678 [Test worker] DEBUG o.s.t.w.s.TestDispatcherServlet - Successfully completed request
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
